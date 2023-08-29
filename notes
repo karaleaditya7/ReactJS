@@ -1,0 +1,20 @@
+react is not a framework , its a library
+
+
+===================
+#install reactjs in our system
+
+npx create-react-app reactadiapp
+cd reactadiapp
+npm start
+
+
+https://www.thapatechnical.com/2021/07/react-js-1702-in-one-video-by-thapa.html
+
+rafce ==> react arrow function component with export
+
+<div> </div>
+or
+<section> </section>
+or
+<React.Fragment> </React.Fragment>
