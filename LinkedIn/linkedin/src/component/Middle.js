@@ -4,6 +4,7 @@ import { Card, CardContent, CardMedia, TextField, Typography } from '@mui/materi
 import image from "../images/image.png"
 import video from "../images/video.png"
 import article from "../images/article.png"
+import steve from "../images/steve.jpeg"
 
 
 const Middle = () => {
@@ -16,20 +17,25 @@ const Middle = () => {
         <img style={{width:"45px",marginLeft:"100px"}} src={video} alt="for middle section" />
         <img style={{width:"45px",marginLeft:"100px"}} src={article} alt="for middle section" />
       </div>
-      <div>
+      <div style={{paddingTop:"20px"}}>
         <Card>
             <CardContent>
-            <div >
-               <img src={profile} style={{width:"30px"}} alt="" />
-              <div>
-                <Typography>Name</Typography>
-                <Typography>Designation</Typography>
-              </div>
+            <div style={{display:"flex"}} >
 
+               <img src={profile} style={{width:"30px"}} alt="" />
+              <div style={{marginLeft:"10px"}}>
+                <Typography>Name</Typography>
+                <Typography sx={{color:"#DCD6D6"}}>Designation</Typography>
+              </div>
             </div>
-                
+            <h5>Description</h5>
+
             </CardContent>
             <CardMedia>
+            
+              component="img"
+              height={300}
+              image={steve}
 
             </CardMedia>
         </Card>
